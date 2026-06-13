@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nimra Mumtaz | Portfolio</title>
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --text-color: #c9d1d9;
+            --accent-color: #58a6ff;
+            --neon-green: #2ea44f;
+            --card-bg: #161b22;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        header {
+            margin-bottom: 40px;
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 20px;
+        }
+        h1 { color: #ffffff; margin-bottom: 5px; }
+        h2 { color: var(--accent-color); border-bottom: 1px solid #21262d; padding-bottom: 8px; }
+        h3 { color: #ffffff; margin: 0; }
+        p { margin: 10px 0; }
+        .tagline { font-size: 1.2rem; color: #8b949e; margin-bottom: 15px; }
+        .section { margin-bottom: 40px; }
+        .project-card, .exp-card {
+            background-color: var(--card-bg);
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .project-badge {
+            background-color: #238636;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 0;
+            list-style: none;
+        }
+        .skills-list li {
+            background-color: #21262d;
+            border: 1px solid #30363d;
+            padding: 5px 12px;
+            border-radius: 6px;
+            font-size: 0.9rem;
+        }
+        a { color: var(--accent-color); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Nimra Mumtaz</h1>
+        <p class="tagline">Electrical Engineering Student at NUST SEECS | AI/ML & Web3 Security Researcher</p>
+        <p>📍 Islamabad, Pakistan</p>
+    </header>
+
+    <div class="section">
+        <h2>🔬 Research & Industry Experience</h2>
+        <div class="exp-card">
+            <h3>Research Intern — Cognet Lab</h3>
+            <p>Working on advanced projects involving Large Language Models (LLMs), optimizing prompt logic, and evaluating automated systems.</p>
+        </div>
+        <div class="exp-card">
+            <h3>C++ Programming Intern — CodeAlpha</h3>
+            <p>Developed core object-oriented programming solutions and managed version control workflows using Git and GitHub.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🚀 Featured Projects</h2>
+        
+        <div class="project-card">
+            <span class="project-badge">Top Project</span>
+            <h3>AegisContract AI — Enterprise Hybrid RAG Security Protocol</h3>
+            <p>An advanced Automated Smart Contract Vulnerability Auditor for Solidity files using Hybrid RAG architecture (ChromaDB vector database) to detect cryptographic exploits and generate secure code patches with automated ReportLab PDF analysis.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Guardian Knot</h3>
+            <p>A custom C++ security application featuring AES-inspired encryption mechanics and an automated distress notification module triggered securely by inactivity metrics or dedicated emergency PINs.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🛠️ Skills Matrix</h2>
+        <ul class="skills-list">
+            <li>C++</li>
+            <li>Python</li>
+            <li>Solidity</li>
+            <li>Machine Learning & RAG</li>
+            <li>Vector Databases (ChromaDB)</li>
+            <li>Digital Logic Design (DLD)</li>
+            <li>Git / GitHub</li>
+            <li>German Language (Self-Studying)</li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
